@@ -1,0 +1,21 @@
+# Python virtual environment
+venv/
+env/
+.env
+
+# Data files (Kaggle datasets can be large)
+data/*.csv
+!data/.gitkeep
+
+# Models (PyTorch Weights are massive)
+models/saved_model/*
+!models/saved_model/.gitkeep
+models/*.zip
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+__pycache__/
+
+# OS generated files
+.DS_Store
+Thumbs.db
